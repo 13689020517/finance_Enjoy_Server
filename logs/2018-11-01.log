@@ -1,0 +1,362 @@
+[2018-11-01T09:50:00.057] [WARN] oAuth - 每月1号执行一次定时任务:  清除所有用户这个月的签到
+[2018-11-01T09:56:15.999] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T09:56:16.000] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:71:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:63:9
+[2018-11-01T09:56:51.499] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T09:56:51.499] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:71:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:63:9
+[2018-11-01T11:12:05.550] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:12:05.551] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T11:12:41.539] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T11:12:41.539] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:71:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:63:9
+[2018-11-01T11:14:26.764] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:14:26.765] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T11:15:06.978] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:15:06.978] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T11:16:36.713] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:16:36.713] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T11:18:20.665] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:18:20.670] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T11:18:54.889] [ERROR] app - 【error】 status: 500 message: Cannot read property 'status' of undefined
+[2018-11-01T11:18:54.889] [ERROR] app - 【stack】
+  TypeError: Cannot read property 'status' of undefined
+    at getUserInfo (E:\node\enjoy\controllers\oauth.js:173:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T12:56:28.720] [WARN] oAuth - 任务时间到期:  2的任务时间到期，时间为:Thu Nov 01 2018 12:56:28 GMT+0800 (中国标准时间)
+[2018-11-01T16:49:03.129] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T16:49:03.130] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:71:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:29:33.721] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:29:33.722] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:33:20.433] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:33:20.433] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:34:02.874] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:34:02.875] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:36:04.960] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:36:04.960] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:42:47.023] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:42:47.023] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T17:43:29.671] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T17:43:29.671] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T18:55:05.311] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T18:55:05.313] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T18:55:08.604] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T18:55:08.605] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:06:18.709] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:06:18.709] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:06:23.888] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:06:23.888] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:14:14.330] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:14:14.330] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:14:16.042] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:14:16.043] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:14:31.806] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:14:31.806] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-01T19:49:00.352] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:49:00.353] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:65:9
+[2018-11-01T19:55:50.734] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T19:55:50.735] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:65:9
+[2018-11-01T20:40:38.543] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-01T20:40:38.544] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:65:9

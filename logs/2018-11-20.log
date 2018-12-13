@@ -1,0 +1,38 @@
+[2018-11-20T20:52:20.702] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-20T20:52:20.703] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:75:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:66:9
+[2018-11-20T20:52:20.769] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-20T20:52:20.769] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:75:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:66:9

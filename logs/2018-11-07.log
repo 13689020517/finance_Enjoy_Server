@@ -1,0 +1,81 @@
+[2018-11-07T09:07:09.740] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-07T09:07:09.744] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-07T09:07:26.646] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-07T09:07:26.648] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-07T09:13:36.444] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-07T09:13:36.444] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-07T09:33:33.246] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-07T09:33:33.246] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-07T10:35:51.802] [WARN] oAuth - 任务时间到期:  9的任务时间到期，时间为:Wed Nov 07 2018 10:35:51 GMT+0800 (中国标准时间)
+[2018-11-07T16:16:04.890] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-07T16:16:04.891] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:40:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-11-07T16:26:36.834] [WARN] oAuth - 任务时间到期:  1的任务时间到期，时间为:Wed Nov 07 2018 16:26:36 GMT+0800 (中国标准时间)
+[2018-11-07T16:40:12.966] [WARN] oAuth - 任务时间到期:  2的任务时间到期，时间为:Wed Nov 07 2018 16:40:12 GMT+0800 (中国标准时间)
+[2018-11-07T16:41:39.811] [WARN] oAuth - 任务时间到期:  5的任务时间到期，时间为:Wed Nov 07 2018 16:41:39 GMT+0800 (中国标准时间)
+[2018-11-07T17:35:20.203] [WARN] oAuth - 任务时间到期:  1的任务时间到期，时间为:Wed Nov 07 2018 17:35:20 GMT+0800 (中国标准时间)
+[2018-11-07T21:53:14.611] [WARN] oAuth - 任务时间到期:  5的任务时间到期，时间为:Wed Nov 07 2018 21:53:14 GMT+0800 (中国标准时间)

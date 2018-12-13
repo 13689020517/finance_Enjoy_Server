@@ -1,0 +1,56 @@
+CREATE TABLE `redeem_activation_code` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '推广激活码ID',
+  `regional_code` varchar(255) DEFAULT NULL COMMENT '省份+取6位Sha256&其他',
+  `createtime` datetime DEFAULT NULL COMMENT '激活码创建时间',
+  `updatetime` datetime DEFAULT NULL COMMENT '激活码领取积分时间',
+  `flag` int(2) DEFAULT '0' COMMENT '0：表示未激活 1：已经激活',
+  `userid` int(10) DEFAULT NULL COMMENT '领取积分兑换用户ID',
+  `code_rules_id` int(10) DEFAULT NULL COMMENT '规则表，规则ID',
+  `provinces` varchar(50) DEFAULT NULL COMMENT '省份字段',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `regional_code` (`regional_code`)
+) ENGINE=InnoDB AUTO_INCREMENT=254704 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `redeem_activation_exchange` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '兑换详情表ID',
+  `user_id` int(10) DEFAULT NULL COMMENT '用户兑换详情ID',
+  `credits` int(10) DEFAULT NULL COMMENT '用户已兑换积分',
+  `creditstime` datetime DEFAULT NULL COMMENT '用户积分兑换时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `redeem_activation_rules` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '推广码积分规则ID',
+  `userid` int(10) DEFAULT NULL COMMENT '绑定用户id',
+  `denomination` int(10) DEFAULT NULL COMMENT '推广码规则面额',
+  `flag` int(2) DEFAULT '0' COMMENT '0：表示未激活 1：已经激活',
+  `denomination_cycle` varchar(1024) DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+
+CREATE TABLE `redeem_activation_user` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '用户兑换积分详情ID',
+  `userid` int(11) NOT NULL COMMENT '用户id',
+  `updatetime` datetime DEFAULT NULL COMMENT '兑换详情时间(不激活不允兑换)',
+  `data` varchar(500) DEFAULT NULL COMMENT '下个周期面额领取日期',
+  `code` varchar(255) DEFAULT NULL COMMENT '兑换推广码详情code',
+  `numberpaic` int(4) DEFAULT NULL COMMENT '用户已兑换领取积分次数',
+  `frequency` int(4) DEFAULT NULL COMMENT '用户剩余领取积分次数',
+  `integral` int(10) DEFAULT NULL COMMENT '用户未领取积分总数',
+  PRIMARY KEY (`id`,`userid`) USING BTREE
+) ENGINE=InnoDB AUTO_INCREMENT=83 DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `redeem_activation_user_detail` (
+  `id` int(10) NOT NULL AUTO_INCREMENT COMMENT '兑换激活码ID',
+  `userid` int(10) DEFAULT NULL COMMENT '兑换激活码用户ID',
+  `newpoint` int(11) DEFAULT NULL COMMENT '用户当前积分数',
+  `updatetime` datetime DEFAULT NULL COMMENT '推广码激活时间',
+  `code` varchar(255) DEFAULT NULL COMMENT '已兑换推广码信息',
+  PRIMARY KEY (`id`),
+  KEY `newpoint` (`newpoint`),
+  KEY `redeem_activation_code_ibfk_1` (`userid`),
+  CONSTRAINT `redeem_activation_user_detail_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `user` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;

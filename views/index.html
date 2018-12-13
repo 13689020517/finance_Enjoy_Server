@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+    <form id="register">
+        <input type="text" value="afengge" name="userName" />
+        <input type="text" value="1" name="userid" id="userid" />
+        <input type="text" value="\xF0\x9F\x98\x83" name="username" id="username" />
+        <input type="text" value="1" name="sex" />
+        <input type="text" value="2" name="role" />
+        <input type="text" value="27" name="age" />
+        <input type="text" value="深圳" name="address" />
+        <input type="text" value="13480874319" name="phone" />
+        <input type="text" value="" placeholder="验证码" name="code" id="code" />
+        <input type="text" value="12321321asadas" name="taobao" />
+        <input type="button" value="提交" id="ok" />
+        <img id="nbb"  src="ss.jpg" />
+    </form>
+
+    <input type="button" value="登陆" id="login" />
+    <input type="button" value="修改用户名" id="xgyhm" />
+    <input type="button" value="获取用户名" id="hqyhm" />
+    <input type="button" value="查询用户信息" id="search" />
+    <input type="button" value="查询我的任务" id="searchRw" />
+    <input type="button" value="查询我的积分" id="searchJf" />
+    <input type="button" value="查询我的礼品" id="searchLp" />
+    <input type="button" value="获取验证码" id="getYZM" />
+
+
+    <input type="button" value="我要签到" id="wyqd" />
+    <input type="button" value="签到数量" id="qdsl" />
+
+
+
+    <input type="button" value="获取首页banner图" id="getBanner" />
+    <input type="button" value="获取首页任务" id="getTask" />
+    <input type="button" value="做任务" id="zuorenwu" />
+    <input type="button" value="查看正在做的任务" id="look" />
+    <input type="button" value="提交任务" id="tjrw" />
+    <input type="button" value="获取首页礼品" id="getItem" />
+    <input type="button" value="获取礼品详情" id="getItemD" />
+    <input type="button" value="兑换礼品" id="exchange" />
+    <input type="button" value="for" id="for" />
+    <input type="button" value="for1" id="for1" />
+    <input type="button" value="for2" id="for2" />
+    <input type="button" value="for3" id="for3" />
+    <input type="button" value="for4" id="for4" />
+    <input type="button" value="for5" id="for5" />
+    <input type="button" value="for6" id="for6" />
+    <input type="button" value="获取任务详情" id = "s" />
+    <input type="button" value="测试" id = "sc" />
+
+
+    <script type="text/javascript">
+        var token = "";
+        $("#login").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/login",
+                type : "post",
+                success : function(data){
+                    token = data.data.token;
+                }
+            });
+        });
+        $("#sc").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/sadad",
+                type : "get",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#xgyhm").on("click",function(){
+            let username = $("#username").val();
+            var data = {
+                username : username
+            }
+            $.ajax({
+                url : "http://192.168.1.15:8080/username",
+                type : "post",
+                headers: {'token': token},
+                data : data,
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#hqyhm").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/getusername",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                    // console.log(new Buffer(data.data[0].user_name,'base64'));
+                }
+            });
+        });
+
+        $("#qdsl").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/postSign",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $('#look').on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/lookTask",
+                type : "post",
+                headers: {'token': token},
+                data : "id=35",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        })
+
+
+
+        $('#s').on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/getTaskDetails",
+                type : "post",
+                headers: {'token': token},
+                data : "id=40",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        })
+        $("#zuorenwu").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/doTask",
+                type : "post",
+                headers: {'token': token},
+                data : "id=40",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#tjrw").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/subTask",
+                type : "post",
+                headers: {'token': token},
+                data : "id=40&img=http://asdasd&orderId=123456789",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $("#for").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for1").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for1",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for2").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for2",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for3").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for3",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for4").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for4",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for5").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for5",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#for6").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/for6",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#exchange").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/exchange",
+                type : "post",
+                headers: {'token': token},
+                data : "id=70",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#getYZM").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/sendMsg",
+                type : "post",
+                headers: {'token': token},
+                data : "phone=13480874319",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#getItem").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/info/getItem",
+                type : "post",
+                headers: {'token': token},
+                data : "pageIndex=1&pageSize=4",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+        $("#getItemD").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/info/getItemDetails",
+                type : "post",
+                headers: {'token': token},
+                data : "id=1&cid=2",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $("#getTask").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/info/getTask",
+                type : "post",
+                headers: {'token': token},
+                data : "pageIndex=1&pageSize=4",
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $("#getBanner").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/info/getBanner",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $("#search").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/userinfo",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data.data[0].address);
+                    let good = JSON.parse(data.data[0].address);
+                    console.log(good.address);
+                }
+            });
+        });
+        $("#searchRw").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/searchMyTask",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#searchJf").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/searchMyIntegral",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+        $("#searchLp").on("click",function(){
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/searchMyGift",
+                type : "post",
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+
+
+        $("#ok").on("click",function(){
+            console.log($("#register").serialize());
+            $.ajax({
+                url : "http://192.168.1.15:8080/auth/register",
+                type : "post",
+                data : $("#register").serialize(),
+                headers: {'token': token},
+                success : function(data){
+                    console.log(data);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

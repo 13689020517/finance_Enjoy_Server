@@ -1,0 +1,310 @@
+[2018-10-22T11:32:30.822] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-10-22T11:32:30.823] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:67:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:59:9
+[2018-10-22T11:52:02.124] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-10-22T11:52:02.125] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:67:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:59:9
+[2018-10-22T11:53:35.286] [INFO] oAuth - 权限: token为GbhmMHM5e4jtmewn6HHDJ8tJpKQShQ28的用户登陆到系统
+[2018-10-22T11:53:36.296] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:41.132] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.133] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.133] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.134] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.134] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.134] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.135] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:41.139] [WARN] oAuth - 权限:  token为null的用户没有权限调用接口
+[2018-10-22T11:53:46.392] [INFO] oAuth - 权限: token为Zz4F68Dw5nsDYSt42tcmThK5N7PWia7F的用户登陆到系统
+[2018-10-22T11:53:46.392] [INFO] oAuth - 权限: token为Zz4F68Dw5nsDYSt42tcmThK5N7PWia7F的用户登陆到系统
+[2018-10-22T11:53:46.392] [INFO] oAuth - 权限: token为Zz4F68Dw5nsDYSt42tcmThK5N7PWia7F的用户登陆到系统
+[2018-10-22T11:53:46.408] [INFO] oAuth - 权限: token为Zz4F68Dw5nsDYSt42tcmThK5N7PWia7F的用户登陆到系统
+[2018-10-22T11:53:47.423] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:47.423] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:47.423] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:47.439] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:48.442] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T11:53:48.457] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:04.640] [INFO] oAuth - 权限: token为WfncsNtRMXPCsxibN4C33PcxFzp3Sdee的用户登陆到系统
+[2018-10-22T12:00:04.643] [INFO] oAuth - 权限: token为WfncsNtRMXPCsxibN4C33PcxFzp3Sdee的用户登陆到系统
+[2018-10-22T12:00:04.644] [INFO] oAuth - 权限: token为WfncsNtRMXPCsxibN4C33PcxFzp3Sdee的用户登陆到系统
+[2018-10-22T12:00:04.644] [INFO] oAuth - 权限: token为WfncsNtRMXPCsxibN4C33PcxFzp3Sdee的用户登陆到系统
+[2018-10-22T12:00:05.643] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:05.644] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:05.645] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:05.645] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:06.646] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T12:00:06.647] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:35.890] [INFO] oAuth - 权限: token为cfMBH2XdknsxQdyEX6cFMDsT7jf7sFQB的用户登陆到系统
+[2018-10-22T13:32:35.890] [INFO] oAuth - 权限: token为cfMBH2XdknsxQdyEX6cFMDsT7jf7sFQB的用户登陆到系统
+[2018-10-22T13:32:35.892] [INFO] oAuth - 权限: token为cfMBH2XdknsxQdyEX6cFMDsT7jf7sFQB的用户登陆到系统
+[2018-10-22T13:32:35.892] [INFO] oAuth - 权限: token为cfMBH2XdknsxQdyEX6cFMDsT7jf7sFQB的用户登陆到系统
+[2018-10-22T13:32:36.894] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:36.895] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:36.895] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:36.896] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:37.894] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:32:37.898] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:19.208] [INFO] oAuth - 权限: token为p7NZ5Zt2ANQ6QsFsZxX4a67tiiWDnB4d的用户登陆到系统
+[2018-10-22T13:35:19.210] [INFO] oAuth - 权限: token为p7NZ5Zt2ANQ6QsFsZxX4a67tiiWDnB4d的用户登陆到系统
+[2018-10-22T13:35:19.210] [INFO] oAuth - 权限: token为p7NZ5Zt2ANQ6QsFsZxX4a67tiiWDnB4d的用户登陆到系统
+[2018-10-22T13:35:19.211] [INFO] oAuth - 权限: token为p7NZ5Zt2ANQ6QsFsZxX4a67tiiWDnB4d的用户登陆到系统
+[2018-10-22T13:35:20.211] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:20.215] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:20.224] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:20.227] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:21.219] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:35:21.228] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-10-22T13:49:08.315] [INFO] oAuth - 权限: token为jAXArWDMYGM5xnmCtEBNTDWbaHDmMX8H的用户登陆到系统
+[2018-10-22T13:50:40.296] [INFO] oAuth - 权限: token为JpTmb3fa7wSdNNHkpzCywYHkTnRD2KDm的用户登陆到系统
+[2018-10-22T13:51:35.591] [INFO] oAuth - 权限: token为cCQE2CtwK43GFPN2rC3RFHtDMcpFjbHp的用户登陆到系统
+[2018-10-22T13:51:35.593] [INFO] oAuth - 权限: token为cCQE2CtwK43GFPN2rC3RFHtDMcpFjbHp的用户登陆到系统
+[2018-10-22T13:51:35.594] [INFO] oAuth - 权限: token为cCQE2CtwK43GFPN2rC3RFHtDMcpFjbHp的用户登陆到系统
+[2018-10-22T13:51:35.595] [INFO] oAuth - 权限: token为cCQE2CtwK43GFPN2rC3RFHtDMcpFjbHp的用户登陆到系统
+[2018-10-22T13:51:42.364] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:42.364] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:42.366] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:44.042] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:44.042] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:44.086] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:51:44.088] [INFO] oAuth - 权限: token为DxSc2XhfpaT48wyyhzxxTwjmyR5kBfCT的用户登陆到系统
+[2018-10-22T13:52:09.933] [INFO] oAuth - 权限: token为i5Dj4RDnNx3sDyfKD6xTtXkySR4sr7YH的用户登陆到系统
+[2018-10-22T13:53:04.568] [INFO] oAuth - 权限: token为i5Dj4RDnNx3sDyfKD6xTtXkySR4sr7YH的用户登陆到系统
+[2018-10-22T13:53:04.572] [INFO] oAuth - 权限: token为i5Dj4RDnNx3sDyfKD6xTtXkySR4sr7YH的用户登陆到系统
+[2018-10-22T13:53:04.574] [INFO] oAuth - 权限: token为i5Dj4RDnNx3sDyfKD6xTtXkySR4sr7YH的用户登陆到系统
+[2018-10-22T13:53:04.576] [INFO] oAuth - 权限: token为i5Dj4RDnNx3sDyfKD6xTtXkySR4sr7YH的用户登陆到系统
+[2018-10-22T13:53:14.639] [INFO] oAuth - 权限: token为NJppf6kBKHtEss3xpMZaxxjEkmBrKY5E的用户登陆到系统
+[2018-10-22T13:53:14.640] [INFO] oAuth - 权限: token为NJppf6kBKHtEss3xpMZaxxjEkmBrKY5E的用户登陆到系统
+[2018-10-22T13:53:14.641] [INFO] oAuth - 权限: token为NJppf6kBKHtEss3xpMZaxxjEkmBrKY5E的用户登陆到系统
+[2018-10-22T13:53:14.668] [INFO] oAuth - 权限: token为NJppf6kBKHtEss3xpMZaxxjEkmBrKY5E的用户登陆到系统
+[2018-10-22T13:53:20.183] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T13:53:20.185] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T13:53:20.186] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T14:07:34.662] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T14:07:34.667] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T14:07:34.670] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T14:07:34.671] [INFO] oAuth - 权限: token为b82BWKs5xx4MxZFpesjpnGYywz84DZeN的用户登陆到系统
+[2018-10-22T14:07:39.596] [INFO] oAuth - 权限: token为EehPzhmYEeE5kiTetafPFwm8m46pym2E的用户登陆到系统
+[2018-10-22T14:07:41.226] [INFO] oAuth - 权限: token为EehPzhmYEeE5kiTetafPFwm8m46pym2E的用户登陆到系统
+[2018-10-22T14:07:41.227] [INFO] oAuth - 权限: token为EehPzhmYEeE5kiTetafPFwm8m46pym2E的用户登陆到系统
+[2018-10-22T14:07:41.241] [INFO] oAuth - 权限: token为EehPzhmYEeE5kiTetafPFwm8m46pym2E的用户登陆到系统
+[2018-10-22T14:07:41.241] [INFO] oAuth - 权限: token为EehPzhmYEeE5kiTetafPFwm8m46pym2E的用户登陆到系统
+[2018-10-22T14:11:35.046] [INFO] oAuth - 权限: token为EjbJ62a7eiB4CjcR247XSKNAsyTTZ8xP的用户登陆到系统
+[2018-10-22T14:11:35.046] [INFO] oAuth - 权限: token为EjbJ62a7eiB4CjcR247XSKNAsyTTZ8xP的用户登陆到系统
+[2018-10-22T14:11:35.048] [INFO] oAuth - 权限: token为EjbJ62a7eiB4CjcR247XSKNAsyTTZ8xP的用户登陆到系统
+[2018-10-22T14:11:35.049] [INFO] oAuth - 权限: token为EjbJ62a7eiB4CjcR247XSKNAsyTTZ8xP的用户登陆到系统
+[2018-10-22T14:11:53.657] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:11:53.658] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:11:53.659] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:13.016] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:13.016] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:13.018] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:21.638] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:21.639] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:21.642] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:21.642] [INFO] oAuth - 权限: token为eP6aQhSapyjhctWsz3yXAKGzGZrnMnam的用户登陆到系统
+[2018-10-22T14:12:26.792] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:26.792] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:26.795] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:27.474] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:48.234] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:48.699] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:12:57.599] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:00.200] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:04.833] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:18.223] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:18.224] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:18.225] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:13:18.225] [INFO] oAuth - 权限: token为4pzAWNSf6kcs3MNh5X52a4eHWXkCNske的用户登陆到系统
+[2018-10-22T14:30:50.891] [INFO] oAuth - 权限: token为eTPMa6GKzBdNmrAW2PrWRhsTaKnhdzHC的用户登陆到系统
+[2018-10-22T14:30:50.892] [INFO] oAuth - 权限: token为eTPMa6GKzBdNmrAW2PrWRhsTaKnhdzHC的用户登陆到系统
+[2018-10-22T14:30:50.892] [INFO] oAuth - 权限: token为eTPMa6GKzBdNmrAW2PrWRhsTaKnhdzHC的用户登陆到系统
+[2018-10-22T14:30:50.892] [INFO] oAuth - 权限: token为eTPMa6GKzBdNmrAW2PrWRhsTaKnhdzHC的用户登陆到系统
+[2018-10-22T16:10:51.418] [INFO] oAuth - 权限: token为skDcTH4fyREd7CRyxMne4xXXPZ3KYbGN的用户登陆到系统
+[2018-10-22T16:10:51.419] [INFO] oAuth - 权限: token为skDcTH4fyREd7CRyxMne4xXXPZ3KYbGN的用户登陆到系统
+[2018-10-22T16:10:51.421] [INFO] oAuth - 权限: token为skDcTH4fyREd7CRyxMne4xXXPZ3KYbGN的用户登陆到系统
+[2018-10-22T16:10:51.422] [INFO] oAuth - 权限: token为skDcTH4fyREd7CRyxMne4xXXPZ3KYbGN的用户登陆到系统
+[2018-10-22T16:10:56.163] [INFO] oAuth - 权限: token为Kwfs4R86N2f7wbB2TG3Pp7sh4AGzxrKp的用户登陆到系统
+[2018-10-22T16:10:56.165] [INFO] oAuth - 权限: token为Kwfs4R86N2f7wbB2TG3Pp7sh4AGzxrKp的用户登陆到系统
+[2018-10-22T16:10:56.165] [INFO] oAuth - 权限: token为Kwfs4R86N2f7wbB2TG3Pp7sh4AGzxrKp的用户登陆到系统
+[2018-10-22T16:10:56.166] [INFO] oAuth - 权限: token为Kwfs4R86N2f7wbB2TG3Pp7sh4AGzxrKp的用户登陆到系统
+[2018-10-22T16:11:48.336] [INFO] oAuth - 权限: token为62TrxkmpWQmJEd8x5zi88eQPKddr4Mzd的用户登陆到系统
+[2018-10-22T16:11:48.337] [INFO] oAuth - 权限: token为62TrxkmpWQmJEd8x5zi88eQPKddr4Mzd的用户登陆到系统
+[2018-10-22T16:11:48.338] [INFO] oAuth - 权限: token为62TrxkmpWQmJEd8x5zi88eQPKddr4Mzd的用户登陆到系统
+[2018-10-22T16:11:48.340] [INFO] oAuth - 权限: token为62TrxkmpWQmJEd8x5zi88eQPKddr4Mzd的用户登陆到系统
+[2018-10-22T16:11:54.478] [INFO] oAuth - 权限: token为EyyzXM4QZccjCcbfYwJAJ2tPeyRxW238的用户登陆到系统
+[2018-10-22T16:11:54.478] [INFO] oAuth - 权限: token为EyyzXM4QZccjCcbfYwJAJ2tPeyRxW238的用户登陆到系统
+[2018-10-22T16:11:54.480] [INFO] oAuth - 权限: token为EyyzXM4QZccjCcbfYwJAJ2tPeyRxW238的用户登陆到系统
+[2018-10-22T16:11:54.481] [INFO] oAuth - 权限: token为EyyzXM4QZccjCcbfYwJAJ2tPeyRxW238的用户登陆到系统
+[2018-10-22T16:12:03.410] [INFO] oAuth - 权限: token为PQMZSmedkNhAkQ23pPYwwanXdazfhNDt的用户登陆到系统
+[2018-10-22T16:12:03.410] [INFO] oAuth - 权限: token为PQMZSmedkNhAkQ23pPYwwanXdazfhNDt的用户登陆到系统
+[2018-10-22T16:12:03.410] [INFO] oAuth - 权限: token为PQMZSmedkNhAkQ23pPYwwanXdazfhNDt的用户登陆到系统
+[2018-10-22T16:12:03.413] [INFO] oAuth - 权限: token为PQMZSmedkNhAkQ23pPYwwanXdazfhNDt的用户登陆到系统
+[2018-10-22T16:12:10.080] [INFO] oAuth - 权限: token为hK4GfmQCcMktSKYrxm456DZZNGhf2YbJ的用户登陆到系统
+[2018-10-22T16:12:10.082] [INFO] oAuth - 权限: token为hK4GfmQCcMktSKYrxm456DZZNGhf2YbJ的用户登陆到系统
+[2018-10-22T16:12:10.084] [INFO] oAuth - 权限: token为hK4GfmQCcMktSKYrxm456DZZNGhf2YbJ的用户登陆到系统
+[2018-10-22T16:12:10.085] [INFO] oAuth - 权限: token为hK4GfmQCcMktSKYrxm456DZZNGhf2YbJ的用户登陆到系统
+[2018-10-22T16:14:08.938] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:09.377] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:09.721] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:10.024] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:10.578] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:10.898] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:11.364] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:11.520] [INFO] oAuth - 权限: token为Ta6f4mi5rPE2xRNCDw5NjbjssbJhhmmH的用户登陆到系统
+[2018-10-22T16:14:11.520] [INFO] oAuth - 权限: token为Ta6f4mi5rPE2xRNCDw5NjbjssbJhhmmH的用户登陆到系统
+[2018-10-22T16:14:11.521] [INFO] oAuth - 权限: token为Ta6f4mi5rPE2xRNCDw5NjbjssbJhhmmH的用户登陆到系统
+[2018-10-22T16:14:11.523] [INFO] oAuth - 权限: token为Ta6f4mi5rPE2xRNCDw5NjbjssbJhhmmH的用户登陆到系统
+[2018-10-22T16:14:11.890] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:12.554] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:13.114] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:13.909] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:14.434] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:14.434] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-10-22T16:14:14.434] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:67:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\route.js:127:14)
+    at Auth (E:\node\enjoy\controllers\oauth.js:36:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+[2018-10-22T16:14:14.792] [INFO] oAuth - 权限: token为ZBBDMBFZJjMZdFsxYWSFbKBTjNsetK4H的用户登陆到系统
+[2018-10-22T16:14:34.021] [INFO] oAuth - 权限: token为mmsCsnZG65QYt7rfNHsBNDhb2XrwK84D的用户登陆到系统
+[2018-10-22T16:14:34.022] [INFO] oAuth - 权限: token为mmsCsnZG65QYt7rfNHsBNDhb2XrwK84D的用户登陆到系统
+[2018-10-22T16:14:34.026] [INFO] oAuth - 权限: token为mmsCsnZG65QYt7rfNHsBNDhb2XrwK84D的用户登陆到系统
+[2018-10-22T16:14:34.026] [INFO] oAuth - 权限: token为mmsCsnZG65QYt7rfNHsBNDhb2XrwK84D的用户登陆到系统
+[2018-10-22T16:14:35.553] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:35.782] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:35.974] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:36.401] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:36.402] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:36.421] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:36.444] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:36.582] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:36.750] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:36.894] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.079] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.247] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.382] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.582] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.767] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:37.967] [INFO] oAuth - 权限: token为HBjSTdS82n4XY2cdCeFajF3TRX2anQR5的用户登陆到系统
+[2018-10-22T16:14:38.006] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:41.982] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:42.229] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:44.286] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:45.115] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:45.297] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:47.144] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:48.407] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:48.639] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:49.774] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:51.123] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:51.294] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:52.678] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:53.663] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:53.875] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:55.421] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:56.379] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:56.545] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:57.560] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:58.491] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:14:58.676] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:00.248] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:01.191] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:01.404] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:02.704] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:03.620] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:03.794] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:05.179] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:06.375] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:06.588] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:08.655] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:13.161] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:13.163] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:13.167] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:18.559] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:18.563] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:18.563] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:18.564] [INFO] oAuth - 权限: token为z7er8rDCJbhQ7Jiet25DSkzkFipKpiyN的用户登陆到系统
+[2018-10-22T16:15:25.813] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:26.867] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:27.227] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:27.603] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:29.180] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:29.221] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:29.222] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T16:15:29.225] [INFO] oAuth - 权限: token为fdJayW8wtRsGhdtXzMnmxbEkam2Ax6E6的用户登陆到系统
+[2018-10-22T19:38:09.589] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:09.591] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:09.594] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:10.955] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:14.294] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:16.947] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:17.409] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:19.989] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:20.496] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:21.890] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:24.840] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:24.841] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:24.841] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:24.841] [INFO] oAuth - 权限: token为Kdi2Cymx2KnX8pebQnhRX3H6hBjtyei5的用户登陆到系统
+[2018-10-22T19:38:29.576] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:29.577] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:29.620] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:33.832] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:35.422] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:35.423] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:38:35.425] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:39:03.015] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:39:03.016] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:39:03.017] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:39:03.017] [INFO] oAuth - 权限: token为x5NFhFWX6pF4xFjXTHhAeCnB7GrAQHnz的用户登陆到系统
+[2018-10-22T19:39:08.206] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T19:39:09.787] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T19:39:12.655] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T19:39:13.160] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T19:39:23.602] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T19:39:24.064] [INFO] oAuth - 权限: token为MYmktKe7xhTj8YAPAmByEsBxzjP2iX8w的用户登陆到系统
+[2018-10-22T20:09:58.596] [INFO] oAuth - 权限: token为8w4nj7SMCnDyy6AHm8JQf5YpJ8TKZJdP的用户登陆到系统
+[2018-10-22T20:21:24.962] [WARN] oAuth - 权限:  token为的用户没有权限调用接口
+[2018-10-22T20:21:28.476] [INFO] oAuth - 权限: token为2Gz35fBThFHNfKiHfhJdmbi2a7n3GtGY的用户登陆到系统
+[2018-10-22T20:32:25.300] [INFO] oAuth - 权限: token为Fjn2c7irRQyPKSdXGk4FhZadGpadntka的用户登陆到系统

@@ -1,0 +1,15 @@
+Xshell:
+root Dell@2050
+
+
+后台:
+ admin 123456
+前主体分成3个管理后台、1个后台 
+
+http://192.168.1.12:8081/egxadmin/login 供应商地址
+http://192.168.1.12:8082/system/login  后台地址
+http://192.168.1.12:8083/meradmin/login 商家地址
+http://192.168.1.12:8086/#/Main/home 前台地址
+
+数据库地址:192.168.1.12
+root 123u123u 数据库账号 密码

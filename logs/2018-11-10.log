@@ -1,0 +1,79 @@
+[2018-11-10T12:45:56.738] [WARN] oAuth - 任务时间到期:  3的任务时间到期，时间为:Sat Nov 10 2018 12:45:56 GMT+0800 (中国标准时间)
+[2018-11-10T14:32:48.374] [ERROR] app - 【error】 status: 404 message: Not Found
+[2018-11-10T14:32:48.374] [ERROR] app - 【stack】
+  NotFoundError: Not Found
+    at E:\node\enjoy\app.js:73:8
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:635:15
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:260:14)
+    at Function.handle (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\node\node_modules\node_global\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:317:13)
+    at E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\node\node_modules\node_global\node_modules\express\lib\router\index.js:275:10)
+    at E:\node\enjoy\app.js:65:9
+[2018-11-10T14:34:08.709] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:10.256] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:10.470] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:11.263] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:15.467] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:16.182] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:34:16.887] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:53:13.799] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:53:59.478] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:00.822] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:01.174] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:01.562] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:03.036] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:03.868] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:54:04.459] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T14:55:06.279] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:03:13.129] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:03:14.332] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:03:36.713] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:04:25.703] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:04:27.458] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:04:28.244] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:52:42.028] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:52:47.843] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:55:38.335] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:55:38.361] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:55:38.566] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:56:00.239] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T15:58:52.419] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:10.468] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:10.920] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:11.592] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:53.138] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:53.673] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:13:54.296] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:29:11.212] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:29:11.560] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:29:24.268] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:29.181] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:29.359] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:29.562] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:29.986] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:30.176] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:30.392] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:36.132] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:37.280] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:37.425] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:37.609] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:37.811] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:38.016] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:46.090] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:47.264] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:47.425] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:47.609] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:47.810] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:48.019] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:48.218] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:48.399] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
+[2018-11-10T16:32:48.649] [ERROR] mysql - 【error】 status: 400 message: 数据库链接超时
